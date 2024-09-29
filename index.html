@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <span id="title">
+            Yogeshwara Stores
+        </span>
+    </header>
+    <main>
+        <div id="take-input">
+            <label for="item-name-input">Enter Item name:</label>
+            <input type="text" id="item-name-input" placeholder="Enter here"><br>
+            <label for="item-qty-input">Enter Item Quantity:</label>
+            <input type="text" id="item-qty-input" placeholder="Enter here">
+            <button id='add' onclick="add_func()">Add</button>
+            <br>
+            <br>
+            <button id="clear" onclick="clear_data()">Clear</button>
+        </div>
+        <table border>z
+            <thead>
+                <th>Item Name</th>
+                <th>Qty</th>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>

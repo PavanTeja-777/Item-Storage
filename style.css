@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    background: blue;
+    color: white;
+    font-size: 2em;
+    font-weight: 900;
+    padding: .3em 0;
+}
+
+main{
+    margin: .6em;
+}
+
+input:focus{
+    border: red 1px solid;
+}
+
+#add, #clear{
+    border: 1px solid black;
+    border-radius: 20%;
+    background: rgb(225, 218, 218);
+    cursor: pointer;
+}
+
+table{
+    margin-top: 1em;
+}
+
+#item-name{
+    padding-left: .2em;
+}
+
+table button{
+    border: 1px solid black;
+    border-radius: 20%;
+    background: rgb(225, 218, 218);
+    margin: 0.2em .3em;
+    cursor: pointer;
+}
+
+table button:hover, #add:hover{
+    background: rgb(189, 187, 187);
+}
+
+.black{
+    background-color: black;
+}
